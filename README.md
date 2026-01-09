@@ -1,4 +1,3 @@
-```markdown
 # 🤖 Holmes AI Auto Bot
 
 > Automated daily check-in and multi-account management with fingerprint protection
@@ -20,173 +19,165 @@
 
 ## 🔍 Overview
 
-Holmes AI Auto Bot is an automated tool designed to manage multiple Holmes AI accounts with enhanced security features. It provides daily check-in automation, agent interaction, and advanced fingerprint protection with proxy support.
+Holmes AI Auto Bot is an automation tool designed to manage multiple Holmes AI accounts securely and efficiently.
+It supports automated daily check-ins, AI agent interactions, and advanced fingerprint protection with optional proxy support.
 
-**🚀 Get Started:** [Register on Holmes AI with my referral code](https://www.holmesai.xyz?invite_code=msOUq5EH)
+**🚀 Get Started:**
+[Register on Holmes AI using my referral code](https://www.holmesai.xyz?invite_code=msOUq5EH)
 
-> **Note:** Sign up with an EVM wallet and connect your social account for full functionality.
+> **Note:** Sign up using an EVM wallet and connect your social account to enable full functionality.
 
 ## ✨ Features
 
-- 🔒 **Fingerprint Protection** - Unique device fingerprints for each account
-- 🌐 **Random User Agents** - Different browser signatures per account
-- 🔄 **Smart Proxy Rotation** - Automatic rotation of invalid proxies
-- 📊 **Multi-Account Support** - Manage multiple accounts simultaneously
-- ✅ **Daily Check-In** - Automated daily reward collection
-- 🤖 **Agent Interaction** - Automated content generation with AI agents
-- 🎯 **Enhanced Prompts** - Dynamic prompt generation for natural interactions
+- 🔒 **Fingerprint Protection** — Unique device fingerprints for each account
+- 🌐 **Random User Agents** — Different browser signatures per account
+- 🔄 **Smart Proxy Rotation** — Automatically replaces invalid proxies
+- 📊 **Multi-Account Support** — Manage multiple accounts simultaneously
+- ✅ **Daily Check-In Automation** — Collect daily rewards automatically
+- 🤖 **AI Agent Interaction** — Automated interaction with Holmes AI agents
+- 🎯 **Dynamic Prompts** — Natural and varied AI-generated interactions
 
 ## 📋 Requirements
 
-- **Python:** Version 3.9 or higher
+- **Python:** 3.9 or higher
 - **pip:** Latest version recommended
-- **Required Libraries:** See `requirements.txt`
+- **Dependencies:** Listed in `requirements.txt`
 
 ## 🛠️ Installation
 
-### 1. Download the Bot
+### 1. Clone the Repository
 
 ```bash
-# Clone the repository
 git clone https://github.com/mejri02/HolmesAi-BOT.git
 cd HolmesAi-BOT
 ```
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Verify Installation
-
-Make sure all required libraries are installed:
+### 3. Verify Installation
 
 ```bash
 pip show aiohttp fake-useragent eth-account eth-utils colorama aiohttp-socks
 ```
 
-⚙️ Configuration
+## ⚙️ Configuration
 
-Account Setup
+### Account Setup
 
-Create a file named accounts.txt in the same directory as the bot:
+Create a file named `accounts.txt` in the project root directory:
 
-```
+```text
 your_private_key_1
 your_private_key_2
 your_private_key_3
 ```
 
-Security Note: Keep your private keys secure. Never share this file.
+> **Security Warning:**
+Keep your private keys safe. Never share this file or commit it to a repository.
 
-Proxy Configuration (Optional)
+### Proxy Configuration (Optional)
 
-Create a file named proxy.txt for proxy support:
+Create a file named `proxy.txt`:
 
-```
-# HTTP/HTTPS proxies
+```text
+# HTTP / HTTPS
 http://proxy1.example.com:8080
 https://proxy2.example.com:443
 
-# SOCKS proxies
+# SOCKS
 socks5://proxy3.example.com:1080
 socks4://proxy4.example.com:1080
 
-# Proxies with authentication
+# Authenticated proxies
 http://username:password@proxy.example.com:8080
 ```
 
-🚀 Usage
+## 🚀 Usage
 
-Run the bot with:
+Run the bot using:
 
 ```bash
 python bot.py
 ```
 
-Runtime Options
+### Runtime Options
 
-When starting, you'll be prompted for:
+When the bot starts, you will be prompted to select:
 
-1. Proxy Mode:
-   · 1: Run with proxy
-   · 2: Run without proxy
-2. Proxy Rotation:
-   · y: Enable automatic rotation for invalid proxies
-   · n: Keep same proxy for failed connections
+1. **Proxy Mode**
+   - `1` — Run with proxy
+   - `2` — Run without proxy
+2. **Proxy Rotation**
+   - `y` — Enable automatic proxy rotation
+   - `n` — Disable rotation
 
-Bot Features
+### Bot Capabilities
 
-· Automatic Login: Web3 wallet authentication
-· Daily Check-In: Collect daily rewards automatically
-· Agent Management: Interact with AI agents
-· Content Generation: Create and publish AI-generated content
-· Fingerprint Protection: Unique device signatures for each account
+- Automatic Web3 wallet authentication
+- Daily reward check-in
+- AI agent management and interaction
+- AI-generated content creation
+- Per-account fingerprint isolation
 
-🔄 Proxy Support
+## 🔄 Proxy Support
 
-The bot supports various proxy types:
+Supported proxy types:
 
-· HTTP/HTTPS: Standard web proxies
-· SOCKS4/SOCKS5: Secure socket proxies
-· Authenticated Proxies: Username/password protected
-· Auto-Rotation: Switch proxies on connection failure
+- HTTP / HTTPS
+- SOCKS4 / SOCKS5
+- Authenticated proxies
+- Automatic proxy rotation on failure
 
-Recommended Proxy Services
+### Recommended Proxy Types
 
-For reliable multi-account operation, consider:
+- Residential proxies (best for stability)
+- Rotating proxies (dynamic IPs)
+- Mobile proxies (highest authenticity)
 
-· Residential Proxies: Best for avoiding detection
-· Rotating Proxies: Change IP addresses automatically
-· Mobile Proxies: Most authentic IP profiles
+## ❤️ Support
 
-❤️ Support the Project
+If you find this project helpful:
 
-If you find this bot useful:
+- ⭐ Star the repository on GitHub
+- 🔄 Share it with others
+- 🐛 Report bugs via Issues
+- 💡 Suggest new features
 
-· ⭐ Star the repository on GitHub
-· 🔄 Share with friends and colleagues
-· 🐛 Report bugs and issues
-· 💡 Suggest improvements
+### Support the Developer
 
-Support the Developer
+Use my referral link when signing up for Holmes AI:
 
-Consider using my referral link when signing up for Holmes AI:
+- **Referral Link:** https://www.holmesai.xyz?invite_code=msOUq5EH
+- **Referral Code:** msOUq5EH
 
-Referral Link: https://www.holmesai.xyz?invite_code=msOUq5EH
-Referral Code: msOUq5EH
+- **GitHub:** mejri02
+- **Support:** GitHub Issues
 
-· GitHub: mejri02
-· Contact: Issues tab on GitHub
+## ⚠️ Disclaimer
 
-⚠️ Disclaimer
+This project is intended for educational purposes only.
 
-This bot is for educational purposes only. Users are responsible for:
+Users are responsible for:
 
-· Complying with Holmes AI's Terms of Service
-· Using the bot responsibly and ethically
-· Not overloading the service with excessive requests
-· Respecting rate limits and API guidelines
+- Complying with Holmes AI’s Terms of Service
+- Ethical and responsible usage
+- Respecting rate limits and platform rules
 
-The developer is not responsible for any account suspensions, bans, or other consequences resulting from the use of this bot.
-
-📞 Contact & Support
-
-· Issues: GitHub Issues
-· Questions: Check the code comments and README
-· Contributions: Pull requests are welcome!
+The developer assumes no responsibility for account bans, suspensions, or other consequences resulting from misuse.
 
 ---
 
 <div align="center">
 
-Developed with ❤️ by mejri02
+Developed with ❤️ by **mejri02**
 
-Referral Code: msOUq5EH
-Sign Up: holmesai.xyz?invite_code=msOUq5EH
+**Referral Code:** msOUq5EH
+**Sign Up:** https://www.holmesai.xyz?invite_code=msOUq5EH
 
-Thank you for using Holmes AI Auto Bot! Don't forget to ⭐ star the repository!
+⭐ Don’t forget to star the repository if you find it useful!
 
 </div>
-
